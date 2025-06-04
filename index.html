@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Samples</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f7f7fa;
+            margin: 0;
+            padding: 40px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .audio-sample-list {
+            list-style: none;
+            padding: 0;
+        }
+        .audio-sample-item {
+            background: #fff;
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            display: flex;
+            gap: 30px;
+        }
+        .audio-title {
+            flex: 0 0 200px;
+            font-weight: 600;
+            font-size: 1.1em;
+            padding: 10px;
+            border-right: 2px solid #eee;
+        }
+        .model-container {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .model-item {
+            padding: 15px;
+            background: #fafafa;
+            border-radius: 8px;
+        }
+        .model-item h3 {
+            margin: 0 0 12px 0;
+            font-size: 0.95em;
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            .audio-sample-item {
+                flex-direction: column;
+            }
+            .audio-title {
+                border-right: none;
+                border-bottom: 2px solid #eee;
+            }
+            .model-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>MOS test 7</h1>
+    <ul class="audio-sample-list">
+
+        <!--number 1-->
+        <!--g,p,b,f-->
+        <!--alto_ver1_sample6-->
+        <li class="audio-sample-item">
+            <span class="audio-title">number 1</span>
+            <div class="model-container">
+                <div class="model-item">
+                    <h3>audio 1</h3>
+                    <audio controls style="width: 100%">
+                        <source src="g/alto_ver1_sample6.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 2</h3>
+                    <audio controls style="width: 100%">
+                        <source src="p/alto_ver1_sample6.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 3</h3>
+                    <audio controls style="width: 100%">
+                        <source src="b/alto_ver1_sample6.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 4</h3>
+                    <audio controls style="width: 100%">
+                        <source src="f/alto_ver1_sample6.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+        </li>
+
+        <!--number 2-->
+        <!--p,b,f,g-->
+        <!--alto_ver2_sample1-->
+        <li class="audio-sample-item">
+            <span class="audio-title">nubmer 2</span>
+            <div class="model-container">
+                <div class="model-item">
+                    <h3>audio 1</h3>
+                    <audio controls style="width: 100%">
+                        <source src="p/alto_ver2_sample1.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 2</h3>
+                    <audio controls style="width: 100%">
+                        <source src="b/alto_ver2_sample1.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 3</h3>
+                    <audio controls style="width: 100%">
+                        <source src="f/alto_ver2_sample1.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 4</h3>
+                    <audio controls style="width: 100%">
+                        <source src="g/alto_ver2_sample1.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+        </li>
+        
+        <!--number 3-->
+        <!--f,p,b,g-->
+        <!--alto_ver3_sample2-->
+        <li class="audio-sample-item">
+            <span class="audio-title">number 3</span>
+            <div class="model-container">
+                <div class="model-item">
+                    <h3>audio 1</h3>
+                    <audio controls style="width: 100%">
+                        <source src="f/alto_ver3_sample2.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 2</h3>
+                    <audio controls style="width: 100%">
+                        <source src="p/alto_ver3_sample2.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 3</h3>
+                    <audio controls style="width: 100%">
+                        <source src="b/alto_ver3_sample2.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 4</h3>
+                    <audio controls style="width: 100%">
+                        <source src="g/alto_ver3_sample2.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+        </li>
+
+        <!--number 4-->
+        <!--b,f,p,g-->
+        <!--tenor_ver1_sample0-->
+        <li class="audio-sample-item">
+            <span class="audio-title">number 4</span>
+            <div class="model-container">
+                <div class="model-item">
+                    <h3>audio 1</h3>
+                    <audio controls style="width: 100%">
+                        <source src="b/tenor_ver1_sample0.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 2</h3>
+                    <audio controls style="width: 100%">
+                        <source src="f/tenor_ver1_sample0.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 3</h3>
+                    <audio controls style="width: 100%">
+                        <source src="p/tenor_ver1_sample0.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 4</h3>
+                    <audio controls style="width: 100%">
+                        <source src="g/tenor_ver1_sample0.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+        </li>
+
+        <!--number 5-->
+        <!--f,b,g,p-->
+        <!--tenor_ver1_sample8-->
+        <li class="audio-sample-item">
+            <span class="audio-title">number 5</span>
+            <div class="model-container">
+                <div class="model-item">
+                    <h3>audio 1</h3>
+                    <audio controls style="width: 100%">
+                        <source src="f/tenor_ver1_sample8.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 2</h3>
+                    <audio controls style="width: 100%">
+                        <source src="b/tenor_ver1_sample8.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 3</h3>
+                    <audio controls style="width: 100%">
+                        <source src="g/tenor_ver1_sample8.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 4</h3>
+                    <audio controls style="width: 100%">
+                        <source src="p/tenor_ver1_sample8.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+        </li>
+
+        <!--number 6-->
+        <!--g,b,p,f-->
+        <!--tenor_ver2_sample1-->
+        <li class="audio-sample-item">
+            <span class="audio-title">number 6</span>
+            <div class="model-container">
+                <div class="model-item">
+                    <h3>audio 1</h3>
+                    <audio controls style="width: 100%">
+                        <source src="g/tenor_ver2_sample1.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 2</h3>
+                    <audio controls style="width: 100%">
+                        <source src="b/tenor_ver2_sample1.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 3</h3>
+                    <audio controls style="width: 100%">
+                        <source src="p/tenor_ver2_sample1.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 4</h3>
+                    <audio controls style="width: 100%">
+                        <source src="f/tenor_ver2_sample1.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+        </li>
+
+        <!--number 7-->
+        <!--p,b,g,f-->
+        <!--tenor_ver3_sample2-->
+        <li class="audio-sample-item">
+            <span class="audio-title">number 7</span>
+            <div class="model-container">
+                <div class="model-item">
+                    <h3>audio 1</h3>
+                    <audio controls style="width: 100%">
+                        <source src="p/tenor_ver3_sample2.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 2</h3>
+                    <audio controls style="width: 100%">
+                        <source src="b/tenor_ver3_sample2.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 3</h3>
+                    <audio controls style="width: 100%">
+                        <source src="g/tenor_ver3_sample2.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="model-item">
+                    <h3>audio 4</h3>
+                    <audio controls style="width: 100%">
+                        <source src="f/tenor_ver3_sample2.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+        </li>
+
+    </ul>
+</body>
+</html>
+
+
